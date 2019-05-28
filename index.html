@@ -1,0 +1,118 @@
+<html>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,600&effect=shadow-multiple" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>BI/O</title>
+  </head>
+  <body class="temper" style="background-color: #fffaf2">
+    <div align="center"><h1 style="margin-top: 0.5em;"><b style="color: #FF4F5A; font-weight: 600;">b<b><b style="font-weight: 200; color: #3d3d3d;">i/o</b></h1></b></div>
+
+  <div class="container" style="position: absolute; margin-top: -9em;">
+  <div class="icon">
+    <div class="sun">
+      <div class="sun__rays">
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+        <div class="sun__ray"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container2" style="position: absolute; margin-left: 10em; margin-top: -2em; 
+    z-index: 200;">
+    <div class="jumbotron" id="pictureContainer">
+      <div id="location"></div>
+      <div id="city"></div>
+      <div id="weather"></div>
+      <div id="temp"></div>
+      <div id="humidity"></div>
+    </div>
+  </div>
+
+<div class="text1" style="visibility: hidden; position: absolute; z-index: 300; margin-left: 2.6em; margin-top: -3em;">
+<h5>
+  Hover for details about
+  <br/>
+  the weather in your location.
+  
+</h5>
+</div>
+
+<div class="text2" style="visibility: hidden; position: absolute; z-index: 300; margin-left: 54.8em; margin-top: 9em;">
+<h5>
+    Hover for details about
+  <br/>
+  the plant environment, like
+  <br/>
+  humidity and temperature.
+  
+</h5>
+</div>
+
+<div class="text3" style="visibility: hidden; position: absolute; z-index: 300; margin-left: 28.8em; margin-top: 21em;">
+<h5>
+Hover for details about
+  <br/>
+  soil, like soil humidity
+  <br/>
+  and soil temperature.
+  <br/> 
+</h5>
+</div>
+
+<div class="text4" style="visibility: hidden; position: absolute; z-index: 300; margin-left: 28.8em; margin-top: -2em; text-align: justify;">
+<h6>
+a web application to give people<br/> with busy modern lives a chance to <br/> reconnect roots- literally.<br/> By monitoring nature<br/>
+</h6>
+</div>
+
+<div id="advice" class="advice" align="center" style="margin-top: 13.5%"><h3>hello, welcome to bi/o.</h3></div>
+<div style="position: absolute; left: 72%; bottom: 20%; z-index: -300"><img class="highlight3" src='https://i.imgur.com/zevHSX2.png' style="visibility: hidden;" /></div>
+<div style="position: absolute; left: 3%; top: 3%;"><img class="highlight2" src='https://i.imgur.com/zevHSX2.png' style="visibility: hidden;"  /></div>
+<div style="position: absolute; left: 37%; bottom: -4%;"><img class="highlight" src='https://i.imgur.com/zevHSX2.png' style="visibility: hidden;"  /></div>
+<div class="humid" id="humid" style="position: absolute; margin-top: 8em; margin-left: 35em;"></div>
+<div class="soiltemp" id="soiltemp" style="position: absolute; margin-top: 7em; margin-left: 35em;"></div>
+<div class="polaroid">
+  <div class="image">
+    <div class="plant">
+       <div class="leaf"></div>
+       <div class="leaf"></div>
+       <div class="leaf"></div>
+       <div class="leaf"></div>
+    </div>
+    <div class="plant-pot">
+      <div class="stem"></div>
+    </div>
+  </div>
+</div>
+<div class="meter" align="right" style="position: absolute; margin-left: 78%; margin-top: -20%"><img class="thermom" style="width: 175px; height: 450px" src='https://i.imgur.com/PzqTgkj.png' /><div class="vl" style="margin-top:-200%; margin-left: 2.73em;"></div><div class="temper" id="temper" style="position: absolute; margin-top: -1em; margin-left: 3em;"></div><div class="humid2" id="humid2" style="position: absolute; margin-top: 0em; margin-left: 3em;"></div></div>
+<div align="left" style="position: absolute; visibility: hidden;">
+<p style="color: #FFA69E">#FFA69E</p>
+<p style="color: #84DCC6">#84DCC6</p>
+<p style="color: #FF8B51">#FF8B51</p>
+<p style="color: #F3DE8A">#F3DE8A</p>
+<p style="color: #FF4F5A">#FF4F5A</p>
+<p style="color: #0099C6">#0099C6</p>
+</div>
+<div align="right" style="position: absolute; bottom: 5px; right: 15px">
+<a id="info" href="" class="fa fa-info-circle" style="margin-right: 0.7em; font-size: 64px"></a>
+<h2>chewed up strings</h2>
+</div>
+  </body>
+<div class="borderbot" style="margin-top: 30%; width:100%; height: 100px; background-color: #bcefff;"></div>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
